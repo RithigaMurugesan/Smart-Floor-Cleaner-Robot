@@ -1,0 +1,116 @@
+SMART FLOOR CLEANER ROBOT – COMPONENTS AND THEIR PURPOSE
+
+1. Arduino Uno
+Arduino Uno acts as the main controller or brain of the system. It receives data from the ultrasonic sensor, processes the information, 
+and controls the movement of the robot through the motor driver module.
+- Easy to program and interface
+- Supports multiple input and output connections
+- Suitable for embedded and robotics applications
+- Reads obstacle distance from sensor
+- Controls robot movement
+- Sends control signals to motor driver
+
+
+2. HC-SR04 Ultrasonic Sensor
+
+The ultrasonic sensor is used for obstacle detection. It continuously measures the distance between the robot and 
+nearby objects.
+
+- Accurate distance measurement
+- Low cost and easy interfacing
+- Works without physical contact
+- Detects obstacles in front of the robot
+- Sends distance information to Arduino
+- Helps the robot avoid collisions
+
+
+3. L298N Motor Driver Module
+The motor driver module controls the speed and direction of the DC motors.
+
+- Arduino cannot provide enough current to run motors directly
+- Motor driver supplies required current and voltage
+- Receives control signals from Arduino
+- Drives left and right motors
+- Controls forward, backward, and turning movements
+
+
+4. DC Geared Motors
+DC motors are responsible for the movement of the robot.
+- Provides rotational motion
+- Geared motors provide better torque and control
+- Moves the robot forward and backward
+- Enables left and right turning
+- Supports robot navigation
+
+
+5. Cleaning Fan / Brush Motor
+The cleaning motor rotates the cleaning brush or fan to collect dust from the floor.
+
+- Performs the actual cleaning operation
+- Rotates continuously during robot movement
+- Collects dust and small particles
+- Helps in floor cleaning automation
+
+
+6. Rechargeable Battery
+
+Battery provides electrical power to all components in the system.
+
+- Makes the robot portable
+- Allows operation without direct power connection
+- Powers Arduino, motors, and sensors
+- Supplies continuous energy during movement
+
+
+7. Robot Chassis
+
+The chassis acts as the physical body of the robot.
+
+- Holds all components together
+- Provides mechanical support
+- Supports motors, battery, and controller
+- Maintains robot structure and stability
+
+8. Wheels
+
+Wheels help the robot move smoothly on the floor.
+
+- Converts motor rotation into movement
+- Supports directional motion
+- Enables movement across surfaces
+- Helps in navigation
+
+
+9. Connecting Wires
+
+Connecting wires establish electrical connections between all components.
+- Transfers signals and power
+- Ensures communication between modules
+- Connects Arduino, sensor, motor driver, and battery
+
+
+10. Power Switch
+
+The switch is used to turn the robot ON or OFF.
+
+- Provides easy control of power supply
+- Starts and stops system operation
+
+
+11. Breadboard / PCB
+
+Used for arranging and connecting electronic components.
+
+- Simplifies circuit assembly
+- Supports prototyping
+- Holds connections securely
+- Organizes the circuit layout
+
+
+12. LED Indicators
+
+LEDs indicate the operational status of the system.
+
+- Provides visual indication
+- Indicates power ON condition
+- Helps during testing and debugging
